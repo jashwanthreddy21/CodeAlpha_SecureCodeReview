@@ -59,7 +59,11 @@ Expected response:
 
 
 {
+
   "host": "https://google.com",
+  
   "response_code": 200,
+  
   "status": "success"
+  
 }
