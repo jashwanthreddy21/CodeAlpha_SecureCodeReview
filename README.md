@@ -21,23 +21,42 @@ GET /ping?host=
 ## 🔧 Setup Instructions
 
 ### 1️⃣ Clone the repo:
+
 git clone https://github.com/yourusername/CodeAlpha_SecureCodeReview.git
+
 cd CodeAlpha_SecureCodeReview
 
+
+
 2️⃣ Set up virtual environment
+
 python3 -m venv venv
+
 source venv/bin/activate
+
+
+
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
+
+
 4️⃣ Run the app
+
 python app.py
+
+
 
 🧪 Example Test
 
+
 curl "http://127.0.0.1:5000/ping?host=https://google.com"
 
+
+
 Expected response:
+
 
 {
   "host": "https://google.com",
